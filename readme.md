@@ -9,6 +9,7 @@ This package provides a simple pdf, csv & excel report generators to speed up yo
 | 1.0  | <= 5.6  | <=7.0 | ~2.1.0 | using `chunk()` to handle big data
 | 1.1  | <= 5.6  | <=7.0 | ~2.1.0 | using `cursor()` to handle big data
 | 2.0  | \>= 5.5 | ^7.0  |  ^3.1  | Using new version of maatwebsite (v3.1)
+| 3.0  | \>= 9.0 | ^7.0  |  ^3.1  | Add support Laravel x9
 
 Find the comparison between `chunk` and `cursor` in [here](https://qiita.com/ryo511/items/ebcd1c1b2ad5addc5c9d)
 
@@ -17,7 +18,7 @@ Add package to your composer:
 
     composer require jimmyjs/laravel-report-generator
 
-If you are running Laravel > 5.5 that's all you need to do. If you are using Laravel < 5.5 add the ServiceProvider to the providers array in config/app.php
+If you are running Laravel > 9.0 that's all you need to do. If you are using Laravel < 5.5 add the ServiceProvider to the providers array in config/app.php
 
     Jimmyjs\ReportGenerator\ServiceProvider::class,
 
